@@ -276,7 +276,7 @@ html, body, div, span, applet, object, iframe,
 			background-color: transparent;
 		}
 		section table.grand-total tbody td.grand-total div {
-			float: right;
+			float: left;
 			padding: 10px 5px;
 			background-color: #21BCEA;
 		}
