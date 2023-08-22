@@ -1,5 +1,6 @@
 @font-face {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: SourceSansPro;
+  src: url(SourceSansPro-Regular.ttf);
 }
 
 .clearfix:after {
@@ -15,14 +16,15 @@ a {
 
 body {
   position: relative;
-  /*width: 21cm;
-  height: 29.7cm;*/
+  width: 98%;  
+  height: 29.7cm;
+  min-height: 20cm;
   margin: 0 auto;
-  padding: 15px;
   color: #555555;
-  background: #FFFFFF;
-  font-size: 14px;
-  font-family: 'Source Sans Pro', sans-serif;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 14px; 
+  font-family: SourceSansPro;
 }
 
 header {
@@ -39,9 +41,6 @@ header {
 #logo img {
   height: 70px;
   border-radius: 50%;
-  width: 70px;
-  overflow: hidden;
-  border: 2px solid #23b295;
 }
 
 #company {
@@ -104,7 +103,7 @@ table td {
 }
 
 table th {
-  white-space: nowrap;
+  white-space: nowrap;        
   font-weight: normal;
 }
 
@@ -113,7 +112,7 @@ table td {
 }
 
 table td h3{
-  color: #23b295;
+  color: #0087C3;
   font-size: 1.2em;
   font-weight: normal;
   margin: 0 0 0.2em 0;
@@ -121,8 +120,8 @@ table td h3{
 
 table .no {
   color: #FFFFFF;
-  font-size: 1.1em;
-  background: #23b295;
+  font-size: 1.6em;
+  background: #0087C3;
 }
 
 table .desc {
@@ -130,14 +129,14 @@ table .desc {
 }
 
 table .unit {
-  background: #DDDDDD;
+  background: #EEEEEE;
 }
 
 table .qty {
 }
 
 table .total {
-  background: #23b295;
+  background: #0087C3;
   color: #FFFFFF;
 }
 
@@ -156,18 +155,18 @@ table tfoot td {
   background: #FFFFFF;
   border-bottom: none;
   font-size: 1.2em;
-  white-space: nowrap;
-  border-top: 1px solid #AAAAAA;
+  white-space: nowrap; 
+  border-top: 1px solid #AAAAAA; 
 }
 
 table tfoot tr:first-child td {
-  border-top: none;
+  border-top: none; 
 }
 
 table tfoot tr:last-child td {
-  color: #23b295;
+  color: #0087C3;
   font-size: 1.4em;
-  border-top: 1px solid #23b295;
+  border-top: 1px solid #0087C3; 
 
 }
 
@@ -180,12 +179,13 @@ table tfoot tr td:first-child {
   margin-bottom: 50px;
 }
 
-#notices{
+.notices{
   padding-left: 6px;
-  border-left: 6px solid #0087C3;
+  border-left: 6px solid #0087C3;  
+  margin-bottom: 10px;
 }
 
-#notices .notice {
+.notices .notice {
   font-size: 1.2em;
 }
 
@@ -199,3 +199,4 @@ footer {
   padding: 8px 0;
   text-align: center;
 }
+
