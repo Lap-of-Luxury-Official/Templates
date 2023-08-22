@@ -108,7 +108,7 @@ table th {
 }
 
 table td {
-  text-align: right;
+  /**text-align: right;**/
 }
 
 table td h3{
